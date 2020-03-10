@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://127.0.0.1:3000/iiif/v2/readux:thgg7/manifest",
+    "@type": "sc:Manifest",
+    "label": "All'Emo., e Rmo. Sigr. Pne. Colmo., Il Sig.r Cardinale Alessandro Albani Emo., e Rmo. pri",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Nolli, Giambattista, approximately 1692-1756."
+        },
+        {
+            "label": "Publisher",
+            "value": "Gio. Battista Nolli"
+        },
+        {
+            "label": "Place of Publication",
+            "value": "Roma"
+        },
+        {
+            "label": "Publication Date",
+            "value": "1748"
+        },
+        {
+            "label": "Notes",
+            "value": {}
+        },
+        {
+            "label": "Record Created",
+            "value": "2019-04-01T16:29:05.871Z"
+        },
+        {
+            "label": "Edition Type",
+            "value": "Readux IIIF Exported Edition"
+        },
+        {
+            "label": "About Readux",
+            "value": "https://readux.ecdsdev.org/about/"
+        },
+        {
+            "label": "Annotators",
+            "value": "Joanna's Github"
+        },
+        {
+            "label": "Export Date",
+            "value": "2020-03-10T15:58:17.018"
+        }
+    ],
+    "description": "The online edition of this book in the public domain, i.e., not protected by copyright, has been produced by the Emory University Digital Library Publications Program. \"D.V.E. Roma il di primo del 1748\". Relief shown by hachures. \"33-34\". Shows names of buildings, plazas, churches, drainage, and other points of interest. Includes index. Variant titles: Picciola Pianta, la nuova topografia di Roma; Picciola Pianta di Roma; Topografia Di Roma Di Gio. Batt[ist]a Nolli dalla maggiore in questa minor tavola dal medesimo ridotta; Topografia Di Roma. Related Names: Giovanni Battista Piranesi 1720-1778.; Carlo Nolli -approximately 1770.",
+    "related": [
+        "https://127.0.0.1:3000/volume/readux:thgg7/page/all"
+    ],
+    "within": [
+        "https://127.0.0.1:3000/collection/views:of:rome",
+        "https://127.0.0.1:3000/collection/theology"
+    ],
+    "thumbnail": {
+        "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2/full/600,/0/default.jpg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2",
+            "profile": "http://iiif.io/api/image/2/level1.json"
+        }
+    },
+    "attribution": "Emory University Libraries",
+    "logo": "https://127.0.0.1:3000/media/logos/lits-logo-web.png",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "viewingDirection": "left-to-right",
+    "viewingHint": "paged",
+    "sequences": [
+        {
+            "@id": "https://127.0.0.1:3000/iiif/v2/readux:thgg7/sequence/normal",
+            "@type": "sc:Sequence",
+            "label": "Current Page Order",
+            "startCanvas": "https://127.0.0.1:3000/iiif/readux:thgg7/canvas/readux:thgg7_00000001.jp2",
+            "canvases": [
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://127.0.0.1:3000/iiif/readux:thgg7/canvas/readux:thgg7_00000001.jp2",
+                    "@type": "sc:Canvas",
+                    "label": "1",
+                    "height": 9061,
+                    "width": 13088,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://127.0.0.1:3000/iiif/readux:thgg7/annotation/readux:thgg7_00000001.jp2",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 9061,
+                                "width": 13088,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://127.0.0.1:3000/iiif/readux:thgg7/canvas/readux:thgg7_00000001.jp2"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://127.0.0.1:3000/iiif/v2/readux:thgg7/list/readux:thgg7_00000001.jp2",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        },
+                        {
+                            "label": "Annotations by admin",
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://127.0.0.1:3000/annotations/admin/readux:thgg7/list/readux:thgg7_00000001.jp2"
+                        },
+                        {
+                            "label": "Annotations by jcmundy",
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://127.0.0.1:3000/annotations/jcmundy/readux:thgg7/list/readux:thgg7_00000001.jp2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
